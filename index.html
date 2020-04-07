@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Remote Work Survey</title><meta name="robots" content="index, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://remote-blog.alaka.work/"><meta property="og:title" content="Remote Work Survey"><meta property="og:site_name" content="Remote Work Survey"><meta property="og:description" content=""><meta property="og:url" content="https://remote-blog.alaka.work/"><meta property="og:type" content="website"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><style>:root{--body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--heading-font:var(--body-font);--logo-font:var(--body-font);--menu-font:var(--body-font)}</style><link rel="stylesheet" href="https://remote-blog.alaka.work/assets/css/style.css?v=572721f1859a05299d14c131ce16e7fc"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Remote Work Survey","url":"https://remote-blog.alaka.work/index.html"}</script><style>@media all and (min-width: 37.5em) {
+                .c-card--featured:before {
+                    content: "Featured"
+                }
+            }</style></head><body><div class="container"><header class="header"><a class="logo" href="https://remote-blog.alaka.work/index.html">Remote Work Survey </a><button class="search-btn" aria-label="Search"><svg role="presentation" focusable="false"><use xlink:href="https://remote-blog.alaka.work/assets/svg/svg-map.svg#search"/></svg></button></header><main class="main"><div class="hero hero--frontpage"><figure class="hero__top"><figcaption class="hero__text"><span class="hero__category">Editor&#x27;s pick</span><h1>How was the Remote Work Survey born?</h1><p class="hero__meta"><time datetime="2020-04-04T20:48">April 4, 2020</time></p><a href="https://remote-blog.alaka.work/how-was-the-remote-work-experience-survey-born/index.html" class="btn">Read more</a></figcaption></figure><div class="hero__bottom"></div></div></main><footer class="footer"><div class="footer__newsletter newsletter"><p class="newsletter__note">Get the latest QF news, updates and more delivered<br>directly to your email inbox</p><form>...</form></div><a class="logo" href="https://remote-blog.alaka.work/index.html">Remote Work Survey</a><nav class="footer__nav"><ul></ul></nav><div class="footer__copyright">Powered by Publii</div></footer></div><div class="search"><div class="search__overlay"><button class="search__close" aria-label="Close">Close</button><form action="https://remote-blog.alaka.work/search.html"><input class="search__input" type="search" name="q" placeholder="search..." autofocus="autofocus"></form></div></div><script>window.publiiThemeMenuConfig = {    
+      mobileMenuMode: 'sidebar',
+      animationSpeed: 300,
+      submenuWidth: 'auto',
+      doubleClickTime: 500,
+      mobileMenuExpandableSubmenus: true, 
+      relatedContainerForOverlayMenuSelector: '.navbar',
+   };</script><script defer="defer" src="https://remote-blog.alaka.work/assets/js/scripts.min.js?v=64066b0ce1491ce25cf66fc443eeb9b7"></script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><div class="cookie-popup js-cookie-popup cookie-popup--uses-badge"><h2>This website uses cookies</h2><p>Select which cookies to opt-in to via the checkboxes below; our website uses cookies to examine site traffic and user activity while on our site, for marketing, and to provide social media functionality. <a href="#not-specified">More details...</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Required</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Functionality</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytical</label> <input id="gdpr-marketing" name="gdpr-marketing" type="checkbox"> <label for="gdpr-marketing">Marketing</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Save</button></p></form><span class="cookie-popup-label">Cookie Policy</span></div><script>(function() {
+                function addScript (src, inline) {
+                    var newScript = document.createElement('script');
+
+                    if (src) {
+                        newScript.setAttribute('src', src);
+                    }
+
+                    if (inline) {
+                        newScript.text = inline;
+                    }
+
+                    document.body.appendChild(newScript);
+                }
+
+                var popup = document.querySelector('.js-cookie-popup');
+                var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                var save = popup.querySelector('button');
+                var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                
+
+                popup.addEventListener('click', function() {
+                    if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    }
+                });
+
+                save.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.classList.remove('cookie-popup--is-sticky');
+                    var allowedGroups = [];
+
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+
+                            allowedGroups.push(groupName);
+                        }
+                    }
+
+                    localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                    popup.classList.remove('cookie-popup--is-sticky');
+
+                    setTimeout(function () {
+                        if (currentConfig !== null) {
+                            window.location.reload();
+                        }
+                    }, 250);
+                });
+
+                if (currentConfig === null) {
+                    popup.classList.add('cookie-popup--is-sticky');
+                } else {
+                    if (currentConfig !== '') {
+                        var allowedGroups = currentConfig.split(',');
+
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                }
+            })();</script></body></html>
